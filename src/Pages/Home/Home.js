@@ -5,6 +5,7 @@ import DataStat from './DataStat';
 import LiveShopping from './LiveShopping';
 import LiveVideo from './LiveVideo';
 import Logos from './Logos';
+import PersonalShopping from './PersonalShopping';
 import Stat from './Stat';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Logos />
             <LiveVideo />
             <Stat />
+            <PersonalShopping />
             <DataStat />
             <Blog />
             <LiveShopping />
