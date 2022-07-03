@@ -27,64 +27,64 @@ const Logos = () => {
     // });
     return (
         // <div>
-        //     <div class="h__partners">
-        //         <div class="h__partners-swiper1">
+        //     <div className="h__partners">
+        //         <div className="h__partners-swiper1">
         //             {/* Additional required wrapper */}
-        //             <div class="swiper-wrapper">
+        //             <div className="swiper-wrapper">
         //                 {/* Slides */}
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Alibaba} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Alibaba} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Amazon} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Amazon} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Daraz} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Daraz} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Ebay} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Ebay} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Rakuten} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Rakuten} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Walmart} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Walmart} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Target} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Target} alt="" />
         //                 </div>
-        //                 {/* <div class="swiper-slide">
-        //                     <img class="h__partners-image" src="https://res.cloudinary.com/dmnazxdav/image/upload/v1601665666/weekmd_if4g2w.jpg" alt="" />
+        //                 {/* <div className="swiper-slide">
+        //                     <img className="h__partners-image" src="https://res.cloudinary.com/dmnazxdav/image/upload/v1601665666/weekmd_if4g2w.jpg" alt="" />
         //                 </div> */}
         //             </div>
         //         </div>
-        //         <div class="h__partners-swiper2" dir="rtl">
+        //         <div className="h__partners-swiper2" dir="rtl">
         //             {/* Additional required wrapper */}
-        //             <div class="swiper-wrapper">
+        //             <div className="swiper-wrapper">
         //                 {/* Slides */}
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Alibaba} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Alibaba} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Amazon} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Amazon} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Daraz} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Daraz} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Ebay} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Ebay} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Rakuten} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Rakuten} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Walmart} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Walmart} alt="" />
         //                 </div>
-        //                 <div class="swiper-slide">
-        //                     <img class="h__partners-image" src={Target} alt="" />
+        //                 <div className="swiper-slide">
+        //                     <img className="h__partners-image" src={Target} alt="" />
         //                 </div>
-        //                 {/* <div class="swiper-slide">
-        //                     <img class="h__partners-image" src="https://res.cloudinary.com/dmnazxdav/image/upload/v1601665666/weekmd_if4g2w.jpg" alt="" />
+        //                 {/* <div className="swiper-slide">
+        //                     <img className="h__partners-image" src="https://res.cloudinary.com/dmnazxdav/image/upload/v1601665666/weekmd_if4g2w.jpg" alt="" />
         //                 </div> */}
         //             </div>
         //         </div>
