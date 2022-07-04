@@ -15,28 +15,29 @@ import { EffectCreative, Pagination, Navigation, Scrollbar } from "swiper";
 const EffectCreativeSlider = () => {
     return (
         <div className="container mx-auto">
-            <h3 className="text-2xl font-bold">What Our Clients Say</h3>
-            <Swiper
-                navigation={true}
-                slidesPerView={window.innerWidth < 768 ? 1 : 2}
-                centeredSlides={true}
-                grabCursor={true}
-                effect={"creative"}
-                scrollbar={true}
-                creativeEffect={{
-                    prev: {
-                        shadow: true,
-                        translate: [0, 0, -400],
-                    },
-                    next: {
-                        translate: ["100%", 0, 0],
-                    },
-                }}
-                modules={[EffectCreative, Pagination, Navigation, Scrollbar]}
-                className="mySwiper"
-            >
-                <SwiperSlide>
-                    {/* <div className="title" data-swiper-parallax="-300">
+            <h3 className="text-2xl font-bold">What Our Clients Do</h3>
+            <div data-aos="zoom-in">
+                <Swiper
+                    navigation={true}
+                    slidesPerView={window.innerWidth < 768 ? 1 : 2}
+                    centeredSlides={true}
+                    grabCursor={true}
+                    effect={"creative"}
+                    scrollbar={true}
+                    creativeEffect={{
+                        prev: {
+                            shadow: true,
+                            translate: [0, 0, -400],
+                        },
+                        next: {
+                            translate: ["100%", 0, 0],
+                        },
+                    }}
+                    modules={[EffectCreative, Pagination, Navigation, Scrollbar]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        {/* <div className="title" data-swiper-parallax="-300">
                         Slide 1
                     </div>
                     <div className="subtitle" data-swiper-parallax="-200">
@@ -53,30 +54,31 @@ const EffectCreativeSlider = () => {
                             tincidunt ut libero. Aenean feugiat non eros quis feugiat.
                         </p>
                     </div> */}
-                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="" />
-                </SwiperSlide>
-            </Swiper>
+                        <img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://images.unsplash.com/photo-1552960504-34e1e1be3f53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://images.unsplash.com/photo-1584091377251-b435d5e47c0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://images.unsplash.com/photo-1590052998279-47593f68dccc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://images.unsplash.com/photo-1552345387-b54624b477d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=759&q=80://swiperjs.com/demos/images/nature-7.jpg" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                    </SwiperSlide>
+                </Swiper>
+            </div>
         </div>
     );
 };

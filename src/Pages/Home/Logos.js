@@ -92,8 +92,8 @@ const Logos = () => {
         // </div>
         <div>
             <hr className='border-gray-400'></hr>
-            <marquee behavior="" direction="">
-                <div className="flex justify-between align-center mx-4 py-8">
+            {/* <marquee behavior="" direction=""> */}
+                <div className="grid grid-cols-4 gap-4 lg:flex lg:justify-between align-center px-4 py-8">
                     <img src={Alibaba} alt="Alibaba Logo" />
                     <img src={Amazon} alt="Amazon Logo" />
                     <img src={Daraz} alt="Daraz Logo" />
@@ -102,7 +102,7 @@ const Logos = () => {
                     <img src={Walmart} alt="Walmart Logo" />
                     <img src={Target} alt="Target Logo" />
                 </div>
-            </marquee>
+            {/* </marquee> */}
             <hr className='border-gray-400'></hr>
         </div>
     );

@@ -10,54 +10,52 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
+import { FreeMode, Pagination, Navigation } from "swiper";
 
 const FreeModeSlider = () => {
     return (
-        <div className="container mx-auto mt-24">
+        <div className="container mx-auto lg:mt-36 lg:py-12">
             <h3 className="text-2xl font-bold">Watch what our customers are doing</h3>
-            <Swiper
-                navigation={true}
-                slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
-                spaceBetween={30}
-                grabCursor={true}
-                freeMode={true}
-                loop={true}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Autoplay, FreeMode, Pagination, Navigation]}
-                className="mySwiper"
-            >
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="" />
-                </SwiperSlide>
-            </Swiper>
+            <div data-aos="zoom-in">
+                <Swiper
+                    navigation={true}
+                    slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
+                    spaceBetween={30}
+                    grabCursor={true}
+                    freeMode={true}
+                    loop={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    modules={[FreeMode, Pagination, Navigation]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        <iframe title="YouTube video player" src="https://www.youtube.com/embed/icmOkFVe4SA" allowfullscreen="allowFullScreen" frameborder="0">
+                        </iframe>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <iframe title="YouTube video player" src="https://www.youtube.com/embed/MLsOPVxY4y0" allowfullscreen="allowFullScreen" frameborder="0">
+                        </iframe>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <iframe title="YouTube video player" src="https://www.youtube.com/embed/ia7006AzOUY" allowfullscreen="allowFullScreen" frameborder="0">
+                        </iframe>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <iframe title="YouTube video player" src="https://www.youtube.com/embed/2w0g42XkSEQ" allowfullscreen="allowFullScreen" frameborder="0">
+                        </iframe>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <iframe title="YouTube video player" src="https://www.youtube.com/embed/IaX6fXbVC94" allowfullscreen="allowFullScreen" frameborder="0">
+                        </iframe>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <iframe title="YouTube video player" src="https://www.youtube.com/embed/mZ0kWgmjQ6A" allowfullscreen="allowFullScreen" frameborder="0">
+                        </iframe>
+                    </SwiperSlide>
+                </Swiper>
+            </div>
         </div>
     );
 };

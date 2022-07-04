@@ -149,7 +149,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-primary">Get started</a>
+                    <a className="btn btn-primary text-white">Get started</a>
                 </div>
             </div>
         );
