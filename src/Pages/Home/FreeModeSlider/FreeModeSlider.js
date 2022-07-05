@@ -14,8 +14,8 @@ import { FreeMode, Pagination, Navigation } from "swiper";
 
 const FreeModeSlider = () => {
     return (
-        <div className="container mx-auto lg:mt-36 lg:py-12">
-            <h3 className="text-2xl font-bold">Watch what our customers are doing</h3>
+        <div className="container mx-auto mt-12 lg:mt-32 lg:py-12">
+            <h3 className="text-2xl lg:text-4xl font-bold">Get Idea About Live Shopping</h3>
             <div data-aos="zoom-in">
                 <Swiper
                     navigation={true}

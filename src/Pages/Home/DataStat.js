@@ -1,4 +1,5 @@
 import React from 'react';
+import { ArrowRightIcon } from '@heroicons/react/outline'
 
 const DataStat = () => {
     return (
@@ -10,7 +11,7 @@ const DataStat = () => {
                 </div>
                 <h4 className="font-bold text-2xl">Data and Insights</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores sapiente harum esse architecto unde doloribus! Nihil dignissimos laboriosam illo est maiores, eligendi aliquid voluptatum vel minus nisi corrupti et?</p>
-                <button className='btn btn-wide btn-primary text-white mt-4'>Get Started</button>
+                <button className='btn btn-wide btn-primary text-white mt-4'>Get Started<ArrowRightIcon className='w-4 h-4 ml-2 text-white'></ArrowRightIcon></button>
             </div>
 
             <div data-aos="zoom-in-down" className="stat place-items-center">
@@ -19,7 +20,7 @@ const DataStat = () => {
                 </div>
                 <h4 className="font-bold text-2xl">ADA Compliance</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit laboriosam voluptatum quos ullam. Architecto autem quod exercitationem dolores eum blanditiis, quia repudiandae reiciendis cumque quaerat explicabo, laudantium repellendus nulla rerum.</p>
-                <button className='btn btn-wide btn-primary text-white mt-4'>Get Started</button>
+                <button className='btn btn-wide btn-primary text-white mt-4'>Get Started<ArrowRightIcon className='w-4 h-4 ml-2 text-white'></ArrowRightIcon></button>
             </div>
 
             <div data-aos="zoom-in-left" className="stat place-items-center">
@@ -28,7 +29,7 @@ const DataStat = () => {
                 </div>
                 <h4 className="font-bold text-2xl">Global Coverage</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iure eum, sed dolore, soluta iusto ex commodi beatae consectetur doloremque atque rerum nam ea ullam odit accusantium maxime tempora at!</p>
-                <button className='btn btn-wide btn-primary text-white mt-4'>Get Started</button>
+                <button className='btn btn-wide btn-primary text-white mt-4'>Get Started<ArrowRightIcon className='w-4 h-4 ml-2 text-white'></ArrowRightIcon></button>
             </div>
 
         </div>

@@ -8,9 +8,13 @@ import LiveShopping from './LiveShopping';
 import LiveVideo from './LiveVideo';
 import Logos from './Logos';
 import PersonalShopping from './PersonalShopping';
-import Stat from './Stat';
+// import Stat from './Stat';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Cards from './Cards';
+import FeaturedProducts from './FeaturedProducts/FeaturedProducts';
+import Rechart from './Rechart';
+import CustomerReviews from './CustomerReviews';
 
 const Home = () => {
 
@@ -21,13 +25,17 @@ const Home = () => {
     return (
         <div className='overflow-x-hidden'>
             <Banner />
-            <Logos />
+            <Cards />
+            {/* <Logos /> */}
+            <FeaturedProducts />
             <LiveVideo />
-            <div className='transition ease-out duration-500 hover:bg-slate-800 hover:text-slate-400'>
+            <Rechart />
+            {/* <div className='transition ease-out duration-500 hover:bg-slate-800 hover:text-slate-400'>
                 <Stat />
-                <FreeModeSlider />
-            </div>
+            </div> */}
+            <FreeModeSlider />
             <PersonalShopping />
+            <CustomerReviews />
             <EffectCreativeSlider />
             <DataStat />
             <Blog />

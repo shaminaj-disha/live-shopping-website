@@ -14,8 +14,8 @@ import { EffectCreative, Pagination, Navigation, Scrollbar } from "swiper";
 
 const EffectCreativeSlider = () => {
     return (
-        <div className="container mx-auto">
-            <h3 className="text-2xl font-bold">What Our Clients Do</h3>
+        <div className="container mx-auto mt-40">
+            <h3 className="text-2xl lg:text-4xl font-bold">How Our Team Works</h3>
             <div data-aos="zoom-in">
                 <Swiper
                     navigation={true}
