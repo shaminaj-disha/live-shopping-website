@@ -2,19 +2,18 @@ import React, { useEffect } from 'react';
 import Banner from './Banner';
 import Blog from './Blog';
 import DataStat from './DataStat';
-import EffectCreativeSlider from './EffectCreativeSlider/EffectCreativeSlider';
-import FreeModeSlider from './FreeModeSlider/FreeModeSlider';
 import LiveShopping from './LiveShopping';
 import LiveVideo from './LiveVideo';
 import Logos from './Logos';
 import PersonalShopping from './PersonalShopping';
-// import Stat from './Stat';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Cards from './Cards';
 import FeaturedProducts from './FeaturedProducts/FeaturedProducts';
 import Rechart from './Rechart';
 import CustomerReviews from './CustomerReviews';
+import LiveShoppingVideos from './LiveShoppingVideos/LiveShoppingVideos.js';
+import TeamWork from './TeamWork/TeamWork';
 
 const Home = () => {
 
@@ -26,17 +25,13 @@ const Home = () => {
         <div className='overflow-x-hidden'>
             <Banner />
             <Cards />
-            {/* <Logos /> */}
             <FeaturedProducts />
             <LiveVideo />
             <Rechart />
-            {/* <div className='transition ease-out duration-500 hover:bg-slate-800 hover:text-slate-400'>
-                <Stat />
-            </div> */}
-            <FreeModeSlider />
+            <LiveShoppingVideos />
             <PersonalShopping />
             <CustomerReviews />
-            <EffectCreativeSlider />
+            <TeamWork />
             <DataStat />
             <Blog />
             <LiveShopping />

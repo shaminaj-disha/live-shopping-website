@@ -22,7 +22,7 @@ const FeaturedProducts = () => {
                         <h3 className='text-5xl text-white'>Featured Products</h3>
                     </div>
                 </div>
-                <div data-aos="zoom-in">
+                <div data-aos="zoom-in" className='container mx-auto'>
                     <Swiper
                         navigation={true}
                         effect={"coverflow"}

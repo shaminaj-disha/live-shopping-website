@@ -7,12 +7,12 @@ import "swiper/css/bundle";
 import "swiper/css/effect-creative";
 
 // import custom styles;
-import "./EffectCreative.css";
+import "./TeamWork.css";
 
 // import required modules
 import { EffectCreative, Pagination, Navigation, Scrollbar } from "swiper";
 
-const EffectCreativeSlider = () => {
+const TeamWork = () => {
     return (
         <div className="container mx-auto mt-40">
             <h3 className="text-2xl lg:text-4xl font-bold">How Our Team Works</h3>
@@ -83,4 +83,4 @@ const EffectCreativeSlider = () => {
     );
 };
 
-export default EffectCreativeSlider;
+export default TeamWork;

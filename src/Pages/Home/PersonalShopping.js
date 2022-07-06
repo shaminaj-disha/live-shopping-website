@@ -44,7 +44,7 @@ const PersonalShopping = () => {
                         </div>
                     </div>
                     <div data-aos="fade-down-right">
-                        <h1 className="text-3xl md:text-7xl font-bold">Personal Shopping‍ One-to-One</h1>
+                        <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold">Personal Shopping‍ One-to-One</h1>
                         <p className="py-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi possimus ex quia impedit, laudantium eum saepe vero quisquam nobis expedita natus, sed et amet aspernatur magni. Inventore assumenda molestiae fugit.</p>
                         <div className='flex justify-center lg:mb-8'>
                             <button className="btn btn-primary text-white mr-4">Get Started</button>

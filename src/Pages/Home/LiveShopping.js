@@ -11,11 +11,9 @@ const LiveShopping = () => {
                     </div>
                 </div>
                 <div data-aos="fade-right">
-                    <h1 className="text-3xl md:text-7xl font-bold">Get Started With Live Shopping Today</h1>
+                    <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold">Get Started With Live Shopping Today</h1>
                     <p className="py-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ipsum quia labore maiores odio blanditiis minima a praesentium. Recusandae totam quaerat molestias ea quisquam facere iste explicabo illo excepturi similique!.</p>
-                    {/* <div className='flex px-6'> */}
                     <button className="btn btn-primary text-white">Get Started<ArrowRightIcon className='w-4 h-4 ml-2 text-White'></ArrowRightIcon></button>
-                    {/* </div> */}
                 </div>
             </div>
         </div>

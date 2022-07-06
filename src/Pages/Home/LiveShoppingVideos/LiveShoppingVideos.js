@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 // import required modules
 import { FreeMode, Pagination, Navigation } from "swiper";
 
-const FreeModeSlider = () => {
+const LiveShoppingVideos = () => {
     return (
         <div className="container mx-auto mt-12 lg:mt-32 lg:py-12">
             <h3 className="text-2xl lg:text-4xl font-bold">Get Idea About Live Shopping</h3>
@@ -60,4 +60,4 @@ const FreeModeSlider = () => {
     );
 };
 
-export default FreeModeSlider;
+export default LiveShoppingVideos;
