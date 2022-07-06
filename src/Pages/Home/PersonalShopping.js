@@ -1,5 +1,4 @@
 import React from 'react';
-// import Arrow from '../../logos/arrow-right.svg';
 import { ArrowRightIcon, MicrophoneIcon, PhoneIcon, VideoCameraIcon, ChatIcon } from '@heroicons/react/outline'
 
 const PersonalShopping = () => {
@@ -50,28 +49,6 @@ const PersonalShopping = () => {
                             <button className="btn btn-primary text-white mr-4">Get Started</button>
                             <button className="btn btn-outline">Learn More<ArrowRightIcon className='w-4 h-4 ml-2 text-black'></ArrowRightIcon></button>
                         </div>
-                        {/* <div className='flex justify-center align-center mt-8 font-bold'>
-                            <img src={Arrow} alt="" width="20px" /><h4 className='text-xl ml-4'>Directly  on your e-commerce site</h4>
-                        </div>
-                        <div className='flex justify-center align-center mt-8 font-bold'>
-                            <img src={Arrow} alt="" width="20px" /><h4 className='text-xl ml-4'>Directly  on your e-commerce site</h4>
-                        </div>
-                        <div className='flex justify-center align-center mt-8 font-bold'>
-                            <img src={Arrow} alt="" width="20px" /><h4 className='text-xl ml-4'>Directly  on your e-commerce site</h4>
-                        </div>
-                        <div className='flex justify-center align-center mt-8 font-bold'>
-                            <img src={Arrow} alt="" width="20px" /><h4 className='text-xl ml-4'>Directly  on your e-commerce site</h4>
-                        </div>
-                        <div className='flex justify-center align-center mt-8 font-bold'>
-                            <img src={Arrow} alt="" width="20px" /><h4 className='text-xl ml-4'>Directly  on your e-commerce site</h4>
-                        </div>
-                        <div className='flex justify-center align-center mt-8 font-bold'>
-                            <img src={Arrow} alt="" width="20px" /><h4 className='text-xl ml-4'>Directly  on your e-commerce site</h4>
-                        </div>
-                        <div className='mt-8'>
-                            <button className="btn btn-primary text-white mr-4">Get Started</button>
-                            <button className="btn btn-outline">Explore One-to-Many</button>
-                        </div> */}
                     </div>
                 </div>
             </div>
