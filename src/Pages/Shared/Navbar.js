@@ -34,8 +34,8 @@ const Navbar = () => {
     <div
       className={
         show
-          ? "navbar bg-base-100 shadow-md shadow-primary py-8 sticky top-0 z-50"
-          : "navbar bg-base-100 shadow-md shadow-primary py-8"
+          ? "navbar bg-base-100 shadow-md shadow-primary py-8 sticky top-0 z-50 duration-1000 ease-in"
+          : "navbar bg-base-100 shadow-md shadow-primary py-8 duration-1000 ease-in"
       }
     >
       <div className="navbar-start">
